@@ -1,0 +1,1 @@
+# AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi
