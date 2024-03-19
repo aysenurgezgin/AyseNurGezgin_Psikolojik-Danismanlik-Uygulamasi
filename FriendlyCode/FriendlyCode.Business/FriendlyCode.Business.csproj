@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FriendlyCode.Core\FriendlyCode.Core.csproj" />
+    <ProjectReference Include="..\FriendlyCode.Data\FriendlyCode.Data.csproj" />
+  </ItemGroup>
+
+</Project>
