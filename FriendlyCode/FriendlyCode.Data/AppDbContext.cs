@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace FriendlyCode.Data
 {
-    internal class AppDbContext:DbContext
+    public class AppDbContext:DbContext
     {
     }
 }
