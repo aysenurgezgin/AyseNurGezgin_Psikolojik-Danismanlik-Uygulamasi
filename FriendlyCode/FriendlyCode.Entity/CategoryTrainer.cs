@@ -10,7 +10,8 @@ namespace FriendlyCode.Entity
     {
         public int CategoryId { get; set; }
         public int TrainerId { get; set; }
+        //Config
     }
 }
-//Forein Key'ler
+//Forein Key'ler 
 //Category ve Trainer'ları eşleştirmek için kullanacağımız (junction table)çoka çok ilişki olduğu için.
