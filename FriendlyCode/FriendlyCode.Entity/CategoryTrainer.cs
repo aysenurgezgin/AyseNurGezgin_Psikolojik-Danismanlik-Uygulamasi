@@ -9,7 +9,7 @@ namespace FriendlyCode.Entity
     public class CategoryTrainer
     {
         public int CategoryId { get; set; }
-        public int TrainerId { get; set; }
+        //public int TrainerId { get; set; }
         //Config
     }
 }
