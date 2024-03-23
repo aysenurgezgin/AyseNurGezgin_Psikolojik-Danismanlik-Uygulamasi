@@ -8,5 +8,6 @@ namespace FriendlyCode.Entity
 {
     public class CategoryPS
     {
+        //id
     }
 }
