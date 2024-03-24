@@ -51,8 +51,26 @@ namespace FriendlyCode.Data
                .Entity<Category>()
                .ToTable("Categories");
 
-//Veri tabanına aktarma işini yaparken aynı zamanda örnek verilerin de girilimesini istiyorum category tabl içine;
+            //Veri tabanına aktarma işini yaparken aynı zamanda örnek verilerin de girilimesini istiyorum category tabl içine;
+            modelBuilder
+                .Entity<Category>()
+                .HasData(
+                new Category
+                    {
+                    Id=1,
+                    Name="Birebir",
+                    Description="Birebir kategori",
+                    Url="birebir"
+                    },
+                new Category
+                {
+                    Id = 2,
+                    Name = "Grup",
+                    Description = "Grup kategorisi",
+                    Url = "grup"
+                }
 
+                );
 
             #endregion
 
@@ -68,3 +86,5 @@ namespace FriendlyCode.Data
 //(.net'e biz demeliyiz)C#tan Sqlite a göç=migrations 'larla göç dosyası hazırlamalıyız (Entity FrameworkCore demiş)1)göç dosyası=migrations aşaması,2)o dosyayı çalıştırma =update açaması=) entity Framework Coru'u Data ya kurduğumuz için orada bir terminal açarız(oraya yükledik)
 //veri tabanın da yapılan değişikler için de her sefernde add diyerek migration eklemeliyiz.
 //2.onmeodel Crating=model oluşturulurken bu tablo olsun vs.olmadan önce belirtmen gerkenler varsa kısmı.
+
+/////En son 2.22.05 te kalddık
