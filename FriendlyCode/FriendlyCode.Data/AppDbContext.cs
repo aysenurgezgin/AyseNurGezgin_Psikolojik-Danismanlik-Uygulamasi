@@ -20,6 +20,43 @@ namespace FriendlyCode.Data
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            #region CategoryTrainer
+            modelBuilder.Entity<CategoryTrainer>().HasKey(x => new { x.CategoryId, x.TrainerId });
+            //PrimaryKey olması için
+            #endregion
+
+
+            #region Category
+            //Category ile ilgili özellikler vermek istediğim için;döngü(lamda expression) değişkenimin ismi de c olsun dedim,döngü her döndüğünde sırada ki categoriye c adını vericek(foreach de ki in den önce yazdığımız değişken adı gibi)
+
+            modelBuilder.Entity<Category>().HasKey(c => c.Id);//her kategorinin id si c olsun dedik.Primary key yapmak için
+            modelBuilder.Entity<Category>().Property(c => c.Id).ValueGeneratedOnAdd();//ekleme yapıldığında değer üret.IdentitySpeficitation
+            modelBuilder
+                .Entity<Category>()
+                .Property(c => c.Name)
+                .IsRequired()
+                .HasMaxLength(50);
+            modelBuilder
+                .Entity<Category>()
+                .Property(c => c.Description)
+                .IsRequired()
+                .HasMaxLength(500);
+
+            modelBuilder
+               .Entity<Category>()
+               .Property(c => c.Url)
+               .IsRequired()
+               .HasMaxLength(500);
+            modelBuilder
+               .Entity<Category>()
+               .ToTable("Categories");
+
+//Veri tabanına aktarma işini yaparken aynı zamanda örnek verilerin de girilimesini istiyorum category tabl içine;
+
+
+            #endregion
+
+
             base.OnModelCreating(modelBuilder);
         }
     }

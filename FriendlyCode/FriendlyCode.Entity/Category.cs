@@ -16,6 +16,6 @@ namespace FriendlyCode.Entity
         public string Url { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
-       
+        public List<CategoryTrainer> CategoryTrainers { get; set; }
     }
 }

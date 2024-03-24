@@ -19,6 +19,10 @@ namespace FriendlyCode.Entity
         public decimal Price { get; set; }//seans ücret
         public bool IsHome { get; set; }//anasayfada göst
         public string ImageUrl { get; set; }//resim
+        //Navigation Property;
+        public List<CategoryTrainer> CategoryTrainers { get; set; }
 
     }
 }
+
+//Classlar arası ilişki kurmuş olduk ,bizim işimiz;tablolarımız arasında ilişki kurmak(ayrıca aramak gibi bir işten de kurtarmış oldu CategoryTrainer)=Navigation Property
