@@ -35,6 +35,7 @@ namespace FriendlyCode.Data.Config
                     Name="Engin Niyazi Ergül",
                     Price="Ücreti merkezimize geldiğiniz de konuşmayı çok isteriz",
                     Properties="Çıktığınız bu yolda yanlız olmadığınızı hissetiren bir kişi.",
+                    Url="engin-niyazi",
                     ImageUrl="1.png",
                     IsHome=true
                 },
@@ -44,6 +45,7 @@ namespace FriendlyCode.Data.Config
                      Name = "Aylin Gezer",
                      Price = "Ücreti merkezimize geldiğiniz de konuşmayı çok isteriz",
                      Properties = "Mantığınızla duygularınız arasında karar vermenize yardımcı olacak bir kişi.",
+                     Url="aylin",
                      ImageUrl = "2.png",
                      IsHome = true
                  },
@@ -53,6 +55,7 @@ namespace FriendlyCode.Data.Config
                       Name = "Mert Güneş",
                       Price = "Ücreti merkezimize geldiğiniz de konuşmayı çok isteriz",
                       Properties = "İş seçiminde ve iş hayatınızda size yardımcı olacak bir kişi.",
+                      Url="mert",
                       ImageUrl = "3.png",
                       IsHome = true
                   },
@@ -62,8 +65,9 @@ namespace FriendlyCode.Data.Config
                       Name = "Asya Gümüş",
                       Price = "Ücreti merkezimize geldiğiniz de konuşmayı çok isteriz",
                       Properties = "Aile hayatınızda çıkmazlara geldiğinizi hissettiğinizde yardımcı olacak bir kişi.",
+                      Url="asya",
                       ImageUrl = "4.png",
-                      IsHome = true
+                      IsHome = false
                   },
                 new Trainer
                    {
@@ -71,6 +75,7 @@ namespace FriendlyCode.Data.Config
                       Name = "Erkan Kocakaya",
                       Price = "Ücreti merkezimize geldiğiniz de konuşmayı çok isteriz",
                       Properties = "Sağlıklı şekilde spor ve hayat çizgisinde kalmanızı sağlayacak bir kişi.",
+                      Url="erkan",
                       ImageUrl = "5.png",
                       IsHome = true
                    },
@@ -80,6 +85,7 @@ namespace FriendlyCode.Data.Config
                       Name = "Merve Karadağlı",
                       Price = "Ücreti merkezimize geldiğiniz de konuşmayı çok isteriz",
                       Properties = "Üniversiteye hazırlık döneminde ki gençlerimize sağlıklı yön verecek bir kişi.",
+                      Url="merve",
                       ImageUrl = "6.png",
                       IsHome = true
                    },
@@ -89,6 +95,7 @@ namespace FriendlyCode.Data.Config
                        Name = "Elif Buse Meriç",
                        Price = "Ücreti merkezimize geldiğiniz de konuşmayı çok isteriz",
                        Properties = "Çift terapisti olarak sizi dinleyen ve çözüm bulacak bir kişi.",
+                       Url="elif-buse",
                        ImageUrl = "7.png",
                        IsHome = true
                     },
@@ -98,6 +105,7 @@ namespace FriendlyCode.Data.Config
                        Name = "Ahmet Toprak",
                        Price = "Ücreti merkezimize geldiğiniz de konuşmayı çok isteriz",
                        Properties = "Felsefik ya da farklı açıdan kendi çıkmazlarınız da yanınızda olacak bir kişi.",
+                       Url="ahmet",
                        ImageUrl = "8.png",
                        IsHome = true
                      },
@@ -107,8 +115,9 @@ namespace FriendlyCode.Data.Config
                        Name = "Kemal Sevim",
                        Price = "Ücreti merkezimize geldiğiniz de konuşmayı çok isteriz",
                        Properties = "Aile içe huzursuzluklarda ve anlaşmazlıklarda sizi yanlız bırakmayacak bir kişi.",
+                       Url="kemal",
                        ImageUrl = "9.png",
-                       IsHome = true
+                       IsHome = false
                       },
                 new Trainer
                       {
@@ -116,6 +125,7 @@ namespace FriendlyCode.Data.Config
                         Name = "Emine Hakyemez",
                         Price = "Ücreti merkezimize geldiğiniz de konuşmayı çok isteriz",
                         Properties = "Evlatlarınızla daha iyi bir iletişim sağlamada size yardımcı olacak bir kişi.",
+                        Url="emine",
                         ImageUrl = "10.png",
                         IsHome = true
                        }
