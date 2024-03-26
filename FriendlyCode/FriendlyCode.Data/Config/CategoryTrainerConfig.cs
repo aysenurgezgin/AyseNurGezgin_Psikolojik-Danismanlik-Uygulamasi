@@ -47,7 +47,7 @@ namespace FriendlyCode.Data.Config
               new CategoryTrainer { TrainerId = 9, CategoryId = 2 },
 
               new CategoryTrainer { TrainerId = 10, CategoryId = 1 },
-              new CategoryTrainer { TrainerId = 10, CategoryId = 1 }
+              new CategoryTrainer { TrainerId = 10, CategoryId = 2 }
          
 
 

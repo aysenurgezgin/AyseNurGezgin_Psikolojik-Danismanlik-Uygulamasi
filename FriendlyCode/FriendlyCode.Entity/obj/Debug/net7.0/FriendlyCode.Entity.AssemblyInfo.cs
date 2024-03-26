@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FriendlyCode.Entity")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c0d02e170ad43a806960eba24d37692011d1ee5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9fdfaf92afbe37ae28da2587b024c2d33df2be54")]
 [assembly: System.Reflection.AssemblyProductAttribute("FriendlyCode.Entity")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FriendlyCode.Entity")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

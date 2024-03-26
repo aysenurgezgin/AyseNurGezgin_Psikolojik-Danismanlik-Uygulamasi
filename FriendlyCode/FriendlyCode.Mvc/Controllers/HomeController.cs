@@ -6,27 +6,14 @@ namespace FriendlyCode.Mvc.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
-
+      
         public IActionResult Index()
         {
             return View();
         }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
+        
+      
     }
 }
+//Ana sayfanın açılması demek Mvc uygulamasında;Home Controller'ın Index action'ı tetikleniyordu.(Eğer Controller ve Action söylenmezse default olarakController home,action olarak ta index olsun demiştik Program.cste)pattern=isteğin yapısı,deseni nasıl olacak.
