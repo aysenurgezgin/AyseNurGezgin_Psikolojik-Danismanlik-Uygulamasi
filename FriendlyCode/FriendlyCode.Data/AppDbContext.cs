@@ -1,4 +1,5 @@
-﻿using FriendlyCode.Entity;
+﻿using FriendlyCode.Data.Config;
+using FriendlyCode.Entity;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -20,7 +21,9 @@ namespace FriendlyCode.Data
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-
+            modelBuilder.ApplyConfiguration(new CategoryConfig());
+            modelBuilder.ApplyConfiguration(new TrainerConfig());
+            modelBuilder.ApplyConfiguration(new CategoryTrainerConfig());
 
 
 
@@ -37,3 +40,5 @@ namespace FriendlyCode.Data
 //2.onmeodel Crating=model oluşturulurken bu tablo olsun vs.olmadan önce belirtmen gerkenler varsa kısmı.
 
 //Config oluşturduktan sonra belirtmemiz gerek şurayı da çalıştır diye.Ya da tüm Cofig dosyalarını çalıştır diye.
+//OnModelCreatin ne zaman çalışıyor?=migration model in oluşmasını sağlıyor,o esnada çalışıyor modelBuilder'lar(ve sırası önemli önce yeni bir CategoryConfig nesnesi oluşturacağı için CategoryConfig in Configure methodu çalışacak.(constractur'ında oluşum anında))
+//*Data katmanın da migration hatası aldığın zaman başlangıç projesinde (Mvc de)bir terminal açarak dotnet build komutunu ver,hatan(kopyalayamıyorum gibi) migration oluşturmadan önce projeyi daha öncesinde ayağa kaldırmış ve migrtion oluştururken onu durdurmaman da olabilir.Ya da bin ve obj dosyalarını silip tekrar deneyebilirsin.

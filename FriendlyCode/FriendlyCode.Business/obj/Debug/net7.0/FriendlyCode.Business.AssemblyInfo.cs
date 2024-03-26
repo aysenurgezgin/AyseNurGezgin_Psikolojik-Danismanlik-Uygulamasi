@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FriendlyCode.Business")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bee2efdfd45d84f080f5926638676b2b5c9e340a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c0d02e170ad43a806960eba24d37692011d1ee5")]
 [assembly: System.Reflection.AssemblyProductAttribute("FriendlyCode.Business")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FriendlyCode.Business")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

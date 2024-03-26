@@ -1,4 +1,5 @@
 C:\Github\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\FriendlyCode\FriendlyCode.Data\bin\Debug\net7.0\FriendlyCode.Data.deps.json
+C:\Github\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\FriendlyCode\FriendlyCode.Data\bin\Debug\net7.0\FriendlyCode.Data.runtimeconfig.json
 C:\Github\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\FriendlyCode\FriendlyCode.Data\bin\Debug\net7.0\FriendlyCode.Data.dll
 C:\Github\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\FriendlyCode\FriendlyCode.Data\bin\Debug\net7.0\FriendlyCode.Data.pdb
 C:\Github\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\FriendlyCode\FriendlyCode.Data\bin\Debug\net7.0\FriendlyCode.Core.dll
@@ -15,6 +16,5 @@ C:\Github\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\FriendlyCode\FriendlyC
 C:\Github\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\FriendlyCode\FriendlyCode.Data\obj\Debug\net7.0\FriendlyCode.Data.dll
 C:\Github\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\FriendlyCode\FriendlyCode.Data\obj\Debug\net7.0\refint\FriendlyCode.Data.dll
 C:\Github\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\FriendlyCode\FriendlyCode.Data\obj\Debug\net7.0\FriendlyCode.Data.pdb
-C:\Github\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\FriendlyCode\FriendlyCode.Data\obj\Debug\net7.0\ref\FriendlyCode.Data.dll
-C:\Github\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\FriendlyCode\FriendlyCode.Data\bin\Debug\net7.0\FriendlyCode.Data.runtimeconfig.json
 C:\Github\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\FriendlyCode\FriendlyCode.Data\obj\Debug\net7.0\FriendlyCode.Data.genruntimeconfig.cache
+C:\Github\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\FriendlyCode\FriendlyCode.Data\obj\Debug\net7.0\ref\FriendlyCode.Data.dll
