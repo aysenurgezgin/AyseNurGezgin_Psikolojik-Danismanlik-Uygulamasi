@@ -11,21 +11,19 @@ namespace FriendlyCode.Data
 {
     public class AppDbContext:DbContext
     {
+        public AppDbContext(DbContextOptions options):base(options)
+        {
+          //buraya bişey yazmıycam;sadece yeni nesne oluşturulurken gelen options u alıp base göndermek için yazdık
+        }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Trainer> Trainers { get; set; }
         public DbSet<CategoryTrainer> CategoryTrainers { get; set; }
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlite(@"Data Source=FriendlyCode.sqlite");
-            base.OnConfiguring(optionsBuilder);
-        }
+    
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new CategoryConfig());
             modelBuilder.ApplyConfiguration(new TrainerConfig());
             modelBuilder.ApplyConfiguration(new CategoryTrainerConfig());
-
-
 
             base.OnModelCreating(modelBuilder);
         }
@@ -41,4 +39,9 @@ namespace FriendlyCode.Data
 
 //Config oluşturduktan sonra belirtmemiz gerek şurayı da çalıştır diye.Ya da tüm Cofig dosyalarını çalıştır diye.
 //OnModelCreatin ne zaman çalışıyor?=migration model in oluşmasını sağlıyor,o esnada çalışıyor modelBuilder'lar(ve sırası önemli önce yeni bir CategoryConfig nesnesi oluşturacağı için CategoryConfig in Configure methodu çalışacak.(constractur'ında oluşum anında))
+
+
 //*Data katmanın da migration hatası aldığın zaman başlangıç projesinde (Mvc de)bir terminal açarak dotnet build komutunu ver,hatan(kopyalayamıyorum gibi) migration oluşturmadan önce projeyi daha öncesinde ayağa kaldırmış ve migrtion oluştururken onu durdurmaman da olabilir.Ya da bin ve obj dosyalarını silip tekrar deneyebilirsin.
+
+
+//Propgam cs te yazdığımız için OnConfiguring methoduna ihtiyacımız kalmadı.Ama base.OnConfiguring(optionsBuilder) sayesinde verdiğimz sqlite özelliğini DbContext e göndermiş oluyorduk.Şuan bu bilgiyi gönderememiş oldum.Bunun içinde bir önlem aıcam buna bir constructar yazıcam;o classtan yeni bir nesne oluşutulurken çalıştığı kodlardı.(ctor)propgram cs te varsa tip olarak bu gidecek buradan da ismi de options olabilir.base e göndermek için de: koyup base deyip(options)içine neyi göndermek istiyorsam onu yazabilirim
