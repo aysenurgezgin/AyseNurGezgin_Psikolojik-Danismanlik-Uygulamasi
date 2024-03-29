@@ -32,3 +32,7 @@ namespace FriendlyCode.Business.Abstract
 //Read için iki tane işlem yaptık )1i birini getirebilsin=Creta;2.GetAll tümünü getirebilmesi için
 //Silmek için 2 tane methot yazdık.
 //CRUD tümü için lazım;Interface de yazma amacımz;her enitiy için lazım olabiliecek şeyler olduğu için
+
+
+
+////Program cs e giderek AddDbContext için yaptığımız benzer şeyi bu repositorylerimiz için yapalım (soyutlamayı bir ileri seviyeye taşıyıp uygulama içinde herhangi bir yerde ITrainerRepository tipinde birşey istiycem yeni bir nesne mesela ya da öyle bir değişken tanımlıycam oysa biliyoruz ki interfaceleri bir tip olarak tanımlayamayız ama soyutlama için)ITrainerService diyeyim sana sen TrainerRepository anla demeyi sağlamak için gideriz.Niye=Bir interface den nesne oluşturduğumu anlayacak,somutumu aklayıp soyutlamış olucam yani.(ITrainerService den bir nesne oluşturduğumu görücek koduma bakan kişi)somutların esnek hale gelmesini sağlamış olucam;ITrainerService i başka bir reposireyde de implemente edip dupperle iş yapabilirim mesela,ITrainerService başka bir Repository e implemente edip orda da Oracle ile iş yapabilirim(bambaşka veri tabanlarıyla)

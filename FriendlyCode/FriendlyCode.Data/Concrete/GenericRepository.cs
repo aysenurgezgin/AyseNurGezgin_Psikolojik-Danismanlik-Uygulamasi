@@ -10,7 +10,7 @@ namespace FriendlyCode.Data.Concrete
 {
     public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEntity : class
     {
-        private readonly DbContext _dbContext;
+        protected readonly DbContext _dbContext;//bulunduğum yerden erişebilmemiz için protected yaptık(public business ttan da Core dan da kullanılabilir ama bana bu gerekmiyor)
         public GenericRepository(DbContext dbContext)
         {
             _dbContext = dbContext;
