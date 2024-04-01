@@ -5,7 +5,7 @@ using FriendlyCode.Data.Abstract;
 using FriendlyCode.Data.Concrete;
 using Microsoft.EntityFrameworkCore;
 
-var builder = WebApplicatio.CreateBuilder(args);
+var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlite("Data Source=FriendlyCode.sqlite"));

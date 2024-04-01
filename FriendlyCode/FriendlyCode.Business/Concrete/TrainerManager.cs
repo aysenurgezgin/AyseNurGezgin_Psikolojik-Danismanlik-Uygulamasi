@@ -11,41 +11,15 @@ namespace FriendlyCode.Business.Concrete
 {
     public class TrainerManager : ITrainerService
     {
-        private  ITrainerRepository _trainerRepository;
-
-        public TrainerManager(ITrainerRepository trainerRepository)
-        {
-            _trainerRepository = trainerRepository;
-        }
-
+        private ITrainerRepository
         public void Create(TrainerViewModel model)
         {
             throw new NotImplementedException();
         }
 
-        public List<TrainerViewModel> GetAll(bool? isHome = null, bool? isActive=null, bool? isDelete = null)
+        public List<TrainerViewModel> GetAll(bool? isHome, bool? isActive, bool? isDelete )
         {
-           var trainers =_trainerRepository.GetAll();
-            List<TrainerViewModel> trainerViewModels = new List<TrainerViewModel>();
-            TrainerViewModel trainerViewModel;
-            foreach (var trainer in trainers) 
-            {
-                if (trainer.IsHome == isHome)
-                {
-                    trainerViewModel = new TrainerViewModel
-                    {
-                        Id=trainer.Id,
-                        Name=trainer.Name,
-                        Price=trainer.Price,
-                        ImageUrl=trainer.ImageUrl,
-                        Properties=trainer.Properties,
-                        Url=trainer.Url
-                    };
-                    trainerViewModels.Add(trainerViewModel);
-                }
-
-            }
-            return trainerViewModels;
+         
         }
        
         public TrainerViewModel GetById(int id)
