@@ -14,12 +14,12 @@ namespace FriendlyCode.Business.Concrete
         private ITrainerRepository
         public void Create(TrainerViewModel model)
         {
-            throw new NotImplementedException();
+            throw new NotImplementedException();//Whats problem?
         }
 
         public List<TrainerViewModel> GetAll(bool? isHome, bool? isActive, bool? isDelete )
         {
-         
+         //?
         }
        
         public TrainerViewModel GetById(int id)
