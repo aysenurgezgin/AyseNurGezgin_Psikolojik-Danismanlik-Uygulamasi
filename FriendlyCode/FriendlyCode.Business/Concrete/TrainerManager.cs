@@ -19,7 +19,7 @@ namespace FriendlyCode.Business.Concrete
 
         public List<TrainerViewModel> GetAll(bool? isHome, bool? isActive, bool? isDelete )
         {
-         //?
+         //?Neden Error verdi araştır?
         }
        
         public TrainerViewModel GetById(int id)
