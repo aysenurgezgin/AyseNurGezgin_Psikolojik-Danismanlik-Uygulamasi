@@ -151,3 +151,15 @@ C:\Users\AYŞE\Desktop\b\aa\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi-d360
 C:\Users\AYŞE\Desktop\b\aa\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi-d360f90f3a519fe3ac80700acfc9427a6f47fafc\FriendlyCode\FriendlyCode.Mvc\obj\Debug\net7.0\FriendlyCode.Mvc.pdb
 C:\Users\AYŞE\Desktop\b\aa\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi-d360f90f3a519fe3ac80700acfc9427a6f47fafc\FriendlyCode\FriendlyCode.Mvc\obj\Debug\net7.0\FriendlyCode.Mvc.genruntimeconfig.cache
 C:\Users\AYŞE\Desktop\b\aa\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi-d360f90f3a519fe3ac80700acfc9427a6f47fafc\FriendlyCode\FriendlyCode.Mvc\obj\Debug\net7.0\ref\FriendlyCode.Mvc.dll
+C:\Github\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\FriendlyCode-Update\FriendlyCode.Mvc\obj\Debug\net7.0\FriendlyCode.Mvc.csproj.AssemblyReference.cache
+C:\Github\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\FriendlyCode-Update\FriendlyCode.Mvc\obj\Debug\net7.0\FriendlyCode.Mvc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Github\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\FriendlyCode-Update\FriendlyCode.Mvc\obj\Debug\net7.0\FriendlyCode.Mvc.AssemblyInfoInputs.cache
+C:\Github\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\FriendlyCode-Update\FriendlyCode.Mvc\obj\Debug\net7.0\FriendlyCode.Mvc.AssemblyInfo.cs
+C:\Github\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\FriendlyCode-Update\FriendlyCode.Mvc\obj\Debug\net7.0\FriendlyCode.Mvc.csproj.CoreCompileInputs.cache
+C:\Github\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\FriendlyCode-Update\FriendlyCode.Mvc\obj\Debug\net7.0\FriendlyCode.Mvc.MvcApplicationPartsAssemblyInfo.cache
+C:\Github\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\FriendlyCode-Update\FriendlyCode.Mvc\obj\Debug\net7.0\FriendlyCode.Mvc.RazorAssemblyInfo.cache
+C:\Github\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\FriendlyCode-Update\FriendlyCode.Mvc\obj\Debug\net7.0\FriendlyCode.Mvc.RazorAssemblyInfo.cs
+C:\Github\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\FriendlyCode-Update\FriendlyCode.Mvc\obj\Debug\net7.0\FriendlyCode.Mvc.sourcelink.json
+C:\Github\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\FriendlyCode-Update\FriendlyCode.Mvc\obj\Debug\net7.0\FriendlyCode.Mvc.dll
+C:\Github\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\FriendlyCode-Update\FriendlyCode.Mvc\obj\Debug\net7.0\refint\FriendlyCode.Mvc.dll
+C:\Github\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\FriendlyCode-Update\FriendlyCode.Mvc\obj\Debug\net7.0\FriendlyCode.Mvc.pdb

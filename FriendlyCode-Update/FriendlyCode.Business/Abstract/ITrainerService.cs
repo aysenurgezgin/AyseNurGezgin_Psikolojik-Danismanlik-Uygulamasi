@@ -10,7 +10,7 @@ namespace FriendlyCode.Business.Abstract
 {
     public interface ITrainerService
     {
-        List<TrainerViewModel> GetAll(bool? isHome,bool? isActive,bool? isDelete);//Parantez içine 3 tane parametre koyduk,ayrı ayrı yazmamak için;Bu methot imzam nasıl bir methot oluşturmak için hazırladığım imza oldu=  geriye TrainerVewModel tipinde değerler taşıyan bir liste döndürecek bir methot hazırlamış oldum.R işemi yaptık>liste halinde okuma yapıp getircek
+        List<TrainerViewModel> GetAll(bool? isHome = null,bool? isActive=null,bool? isDelete = null);//Parantez içine 3 tane parametre koyduk,ayrı ayrı yazmamak için;Bu methot imzam nasıl bir methot oluşturmak için hazırladığım imza oldu=  geriye TrainerVewModel tipinde değerler taşıyan bir liste döndürecek bir methot hazırlamış oldum.R işemi yaptık>liste halinde okuma yapıp getircek
         //1)İd'si şu olan Trainer ı getir;ürünler listelenmiş kullanıcıya tıklayınca onun detay bilgilerini göstericeğimiz durumda lazım olacak o zaman geriye ne döndürecek?=TrainerViewModel döndürecek ismi da = GetById içine de=int id alsın=)R işlemi>=veri tababından tek bir ürünü okuyup getireck
         TrainerViewModel GetById(int id);
         //2)Cread =)yeni bir kayıt oluşturuken;kullanıcıya viewModel tipinde birşey girdirip o grileni buraya göndericez kaydetme sonun da da birşey döndürmeyeceğiz demek ki methodumuz birşey döndürmeyecek(void) adına=Create parantea içine de dışarıdan TrainerViewModeltipinde bir veri gelicek ,adı da= model olan=)

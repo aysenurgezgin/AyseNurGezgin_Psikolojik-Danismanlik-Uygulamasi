@@ -1,8 +1,35 @@
-﻿@{
+﻿@model List<TrainerViewModel>
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
+
+@foreach (var t in Model)
+{
+    <div>@p.Name</div>
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@* <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+</div>   //usingini Wiew import doyasına ekle.
+
+//foreach içinde gelen ismi p Model(bizim için buraya gelen verinin modelin
+aşd kullanılabilmesi için keyywor büyük M ile başlayan Model dir. )
+ *@

@@ -24,11 +24,25 @@ namespace FriendlyCode.Business.Concrete
             throw new NotImplementedException();
         }
 
-        public List<TrainerViewModel> GetAll(bool? isHome, bool? isActive, bool? isDelete)
+        public List<TrainerViewModel> GetAll(bool? isHome=null, bool? isActive=null, bool? isDelete = null)
         {
             var trainers = _trainerRepository.GetAll();
             List<TrainerViewModel> trainerViewModels = new List<TrainerViewModel>();
-            //forach döng gelecek
+            TrainerViewModel trainerViewModel;
+            foreach (var trainer in trainers)
+            {
+                trainerViewModel = new TrainerViewModel
+                {
+                    Id = trainer.Id,
+                    Name = trainer.Name,
+                    Price = trainer.Price,
+                    ImageUrl= trainer.ImageUrl,
+                    Properties = trainer.Properties,
+                    Url = trainer.Url
+                };
+                trainerViewModels.Add(trainerViewModel);
+            }
+            return trainerViewModels;
         }
        
         public TrainerViewModel GetById(int id)
@@ -73,3 +87,6 @@ namespace FriendlyCode.Business.Concrete
 
 //Burada artık bir değişken tanımladık(trainers)isminde bir nesne;biliyoruz ki bir değişken tanımlarken tip veririz (List<Trainer>)C#'ın temel kuralı.Fakat artık bazı noktalarda daha kolay kod yazmak için kimi zaman gereksiz namaspace ler eklememek için şuan da burda hepsi yok;biz tarz durumlar için çoğu kez VAR keeyword'ünü kullanırız.Var=)Şuan da yazmış old. satırda ne anlıyoruz?=GetAll ne tipte birşey döndürüyor;List<Trainer> dolayısıyla benim şunu(_trainerRepository.GetAll();)aktaracağım değişkenin tipi ne olmalıymış;List<Trainer> ben de zaten ona göre yazmışım.Ama List<Trainer>'ı silip yerine Var yazdığım zaman bana bir hata vermediğini görürüm.=)sen burda JS gibi davran demiş olduk.Js ne yapıyordu;bir değişkenin içine hangi tipte değerde atarsaak onu o tipte yapıyordu.
 //Şuan benim elimde ne var=)List<Trainer>tipinde bir liste var Trainers diye peki benim geriye döndürmem gereken(bu methodun geriye dönd.gereken)şeyin tipi;TrainerViewModel tipinde ki Listeyiymiş.O zaman benim trainers ı alıp TrainerViewModel tipine döndürmem gerekiyor.;Mvc'ye biz trainer'la ilgili birşey göndermiycez,orda ViewModel'la çalışıcaz diye.Dolayısıyla ben geriye List<TrainersViewModel>tipinde bir değişken oluştur diycez(var da yazabilirdik tabi ki)adına da trainerViewModels=new List<TrainersViewModel>();derim new deyince de boş bir tane oluştmuş olurum oysa;trainers'a öyle birşey yaıcam ki tek tek bunun içinde dolaşıcam içindeki tüm trainerları alıp TrainersViewModel tipinde nesneler oluşturucam.Şu oluşsunList<TrainersViewModel> ve ben trainers içinde döneyim.(Kullanmayacağımız bir teknik anlamk için döngü mantığını)
+
+//foreacf;Trainerların içinde dolaşıcam her sıradaki elemena da trainer diyorum.Kendi hazırladığımız classlar arasında yapıyoruz,trainerViewModel classımız ,trainer classımız var elimize gelen şey trainerListesi,ben TrianerViewModel Lİstesi yapmak istiyorum.Her bir tariner için bana(dışarı da TrianerViewModel tipinde tranerViewModel oluşturalım başlangıçta herhangi bir değer vermeyelim)foreach döngüsü içiçnde yaptığım şey;döngünün içine ilk gird zaman yeni bir trianerViewModel tipinde nesne oluşturup 1.trainerın özelliklerini bunun içine koymuş oldum.Bu biterbitmez döngünün içindeyken Yukarıda oluşt.listeye bunu ekliyorum;1.Trainerımı TrianerViewModel tipine dönüştürüp listeye ekledim.Döngü dönünce sırayla devam edecek.Bu bittiğinde de içinde trianerViewModel tipinde değerler taşıyan bir trianerViewModels listesi olucak ve bunu return edebilirim.
+//Peki buna ne zman iht duymuştuk ve bunu yazmıştık?Mvc de Home'un indexinin içinde çağıracak bir methot bulamamıştık bussiness katmanın da o yüzden bunu yazmıştık(Mvc ye dön Home controllerıa)
