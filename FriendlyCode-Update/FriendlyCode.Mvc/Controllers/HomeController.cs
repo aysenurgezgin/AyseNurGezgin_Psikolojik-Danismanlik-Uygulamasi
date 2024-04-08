@@ -16,7 +16,7 @@ namespace FriendlyCode.Mvc.Controllers
 
         public IActionResult Index()
         {
-            var trainers = _trainerManager.GetAll();
+            var trainers = _trainerManager.GetAll(true);
             return View(trainers);
         }
 
