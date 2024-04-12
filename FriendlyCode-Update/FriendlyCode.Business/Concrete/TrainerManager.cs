@@ -27,34 +27,25 @@ namespace FriendlyCode.Business.Concrete
         public List<TrainerViewModel> GetAll(bool? isHome=null, bool? isActive=null, bool? isDelete = null)
         {
             List<Trainer> trainers;
-      //İçine True gelmişse
-           if (isHome != null)
-            {
-              trainers = _trainerRepository.GetHomePageTrainers();
-            } 
-          else if (isHome == null) 
+      //İçine hiçbirşey gelmemişse;
+           if (isHome == null)
             {
               trainers = _trainerRepository.GetAll();
-            }
-           else
+            } 
+          else 
             {
-                trainers = _trainerRepository.GetAll();
+                trainers = _trainerRepository.GetHomePageTrainers(isHome);
             }
-            List<TrainerViewModel> trainerViewModels = new List<TrainerViewModel>();
-            TrainerViewModel trainerViewModel;
-            foreach (var trainer in trainers)
-            {
-                trainerViewModel = new TrainerViewModel
+            List<TrainerViewModel> trainerViewModels = trainers
+                .Select(t => new TrainerViewModel
                 {
-                    Id = trainer.Id,
-                    Name = trainer.Name,
-                    Price = trainer.Price,
-                    ImageUrl= trainer.ImageUrl,
-                    Properties = trainer.Properties,
-                    Url = trainer.Url
-                };
-                trainerViewModels.Add(trainerViewModel);
-            }
+                    Id = t.Id,
+                    Name = t.Name,
+                    Price = t.Price,
+                    Url = t.Url,
+                    ImageUrl = t.ImageUrl,
+                    Properties = t.Properties
+                }).ToList();
             return trainerViewModels;
         }
        
@@ -108,3 +99,20 @@ namespace FriendlyCode.Business.Concrete
 
 //*Koşula bağlı yaazım başlıyor GetAll da
 
+//List<TrainerViewModel> trainerViewModels = new List<TrainerViewModel>();
+//TrainerViewModel trainerViewModel;
+//foreach (var trainer in trainers)
+//{
+//    trainerViewModel = new TrainerViewModel
+//    {
+//        Id = trainer.Id,
+//        Name = trainer.Name,
+//        Price = trainer.Price,
+//        ImageUrl= trainer.ImageUrl,
+//        Properties = trainer.Properties,
+//        Url = trainer.Url
+//    };
+//    trainerViewModels.Add(trainerViewModel);
+//}  //*uzun olan yapı
+
+//*Şimdi daha idealini yazıyoruz.Trainerları alıp TrainerViewModel olarak vermek amacımız.ki aldık Trainerları elimizde (List<Trainer>trainers yazdığımız kısım)bana TrainerViewModel tipide bir liste ver adı da trainerViewModel olsun = de ve trainerlar içinde dön Select ile her bir trainer için yeni bir TrainerViewModel oluştur diyecek ve ne dediği için Skopummu açıp({})ViewModel tipindeki değişkenimin değerlerini girmeye başlıyacağım.Sonunda .ToList(); yazıcaz ki kızgın olmasın nende dedik=List<Trainer>trainers içine değer aktarmaya çalıştd için.Trainer içinde kaç tane trainer varsa o kadar new deyip tekrarlayacak.

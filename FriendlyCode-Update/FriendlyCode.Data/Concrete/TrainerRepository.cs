@@ -21,7 +21,7 @@ namespace FriendlyCode.Data.Concrete
             }
         }//Seti olmayacak salt okunabilir bir propert olucak ve get inde de özel bir kod yazıcaz.(burda kullanacağımız için public demeye gerek yok){}parantez içine bu AppContext çağırıldığı yerden GnericRepository de ki _dbContexti geri döndür.
 
-        public List<Trainer> GetHomePageTrainers(bool isHome)
+        public List<Trainer> GetHomePageTrainers(bool? isHome)
         {
             //LINQ=Language Interface Query
             var trainers = AppContext
@@ -30,7 +30,7 @@ namespace FriendlyCode.Data.Concrete
                 .ToList();
             return trainers;
         }
-        //*Dışarıdan isHome için true gönderilmişse;true olnalrı false ise false olanlarını göster demiş olurum.Bunun sayesinde TrainerManager deki fazla if yapıarına gerek kalmaz.Daha basiti yetecek.
+        //*Dışarıdan isHome için true gönderilmişse;true olnalrı false ise false olanlarını göster demiş olurum.Bunun sayesinde TrainerManager deki fazla if yapıarına gerek kalmaz.Daha basiti yetecek.Orada null yaptıysak tabi burda da null yapmalıyım;gererige de gidipbool yanına ? ekleyince hata girerilir.
 
 
         //Bu sayede Context imizin içinde yer alan bütün dbsetlerimize erişebiliyoruz onlar sayesinde de tablolarımıza erişebiliyoruz.
