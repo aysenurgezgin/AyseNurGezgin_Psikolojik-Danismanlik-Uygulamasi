@@ -26,7 +26,20 @@ namespace FriendlyCode.Business.Concrete
 
         public List<TrainerViewModel> GetAll(bool? isHome=null, bool? isActive=null, bool? isDelete = null)
         {
-            var trainers = _trainerRepository.GetAll();
+            List<Trainer> trainers;
+      //İçine True gelmişse
+           if (isHome != null)
+            {
+              trainers = _trainerRepository.GetHomePageTrainers();
+            } 
+          else if (isHome == null) 
+            {
+              trainers = _trainerRepository.GetAll();
+            }
+           else
+            {
+                trainers = _trainerRepository.GetAll();
+            }
             List<TrainerViewModel> trainerViewModels = new List<TrainerViewModel>();
             TrainerViewModel trainerViewModel;
             foreach (var trainer in trainers)
@@ -90,4 +103,8 @@ namespace FriendlyCode.Business.Concrete
 
 //foreacf;Trainerların içinde dolaşıcam her sıradaki elemena da trainer diyorum.Kendi hazırladığımız classlar arasında yapıyoruz,trainerViewModel classımız ,trainer classımız var elimize gelen şey trainerListesi,ben TrianerViewModel Lİstesi yapmak istiyorum.Her bir tariner için bana(dışarı da TrianerViewModel tipinde tranerViewModel oluşturalım başlangıçta herhangi bir değer vermeyelim)foreach döngüsü içiçnde yaptığım şey;döngünün içine ilk gird zaman yeni bir trianerViewModel tipinde nesne oluşturup 1.trainerın özelliklerini bunun içine koymuş oldum.Bu biterbitmez döngünün içindeyken Yukarıda oluşt.listeye bunu ekliyorum;1.Trainerımı TrianerViewModel tipine dönüştürüp listeye ekledim.Döngü dönünce sırayla devam edecek.Bu bittiğinde de içinde trianerViewModel tipinde değerler taşıyan bir trianerViewModels listesi olucak ve bunu return edebilirim.
 //Peki buna ne zman iht duymuştuk ve bunu yazmıştık?Mvc de Home'un indexinin içinde çağıracak bir methot bulamamıştık bussiness katmanın da o yüzden bunu yazmıştık(Mvc ye dön Home controllerıa)
+
+//*Var ın çalışma mantığında;tipini ancak içine birşey atarsam tanımlayabilir.C#'ta da tipini belirlemeden değişken tanımlayamaz.;O zaman List<Trainer>(tipini belirterek yazmak gerek yani)
+
+//*Koşula bağlı yaazım başlıyor GetAll da
 
