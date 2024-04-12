@@ -51,9 +51,19 @@ namespace FriendlyCode.Business.Concrete
        
         public TrainerViewModel GetById(int id)
         {
-            throw new NotImplementedException();
+           Trainer trainer = _trainerRepository.GetById(id);
+            TrainerViewModel trainerViewModel = new TrainerViewModel
+            {
+                 Id =trainer.Id,
+                 Name = trainer.Name,
+                 Price = trainer.Price,
+                 Url = trainer.Url,
+                 ImageUrl = trainer.ImageUrl,
+                 Properties = trainer.Properties
+            };
+            return trainerViewModel;
         }
-
+        //_trainerRepository methot sayesinde trainerlar içinde ilgili id li trainer gldi ama tipi Trainer ben TrainerViewModel döndürmeliyim.(nesneye çevirme işlemi)Artık bunu Mvsc yapımın içinde ki Controller daki action da çağırabilirm.
         public void HardDelete(int id)
         {
             throw new NotImplementedException();
@@ -116,3 +126,5 @@ namespace FriendlyCode.Business.Concrete
 //}  //*uzun olan yapı
 
 //*Şimdi daha idealini yazıyoruz.Trainerları alıp TrainerViewModel olarak vermek amacımız.ki aldık Trainerları elimizde (List<Trainer>trainers yazdığımız kısım)bana TrainerViewModel tipide bir liste ver adı da trainerViewModel olsun = de ve trainerlar içinde dön Select ile her bir trainer için yeni bir TrainerViewModel oluştur diyecek ve ne dediği için Skopummu açıp({})ViewModel tipindeki değişkenimin değerlerini girmeye başlıyacağım.Sonunda .ToList(); yazıcaz ki kızgın olmasın nende dedik=List<Trainer>trainers içine değer aktarmaya çalıştd için.Trainer içinde kaç tane trainer varsa o kadar new deyip tekrarlayacak.
+
+//*GetById için= Bunu çağırıcaz Mvc projemizdeki Action içinden

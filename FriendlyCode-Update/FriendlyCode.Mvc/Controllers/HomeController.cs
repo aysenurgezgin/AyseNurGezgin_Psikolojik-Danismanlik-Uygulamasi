@@ -20,7 +20,10 @@ namespace FriendlyCode.Mvc.Controllers
             return View(trainers);
         }
 
-        
+        public IActionResult GetById(int id)
+        {
+            return View();
+        }
       
     }
 }
@@ -30,3 +33,4 @@ namespace FriendlyCode.Mvc.Controllers
 
 //*Artık TrainerMaager(Business ta methot yazd.göre burada onu çağırabilim.)TrainerManager tipinde bir nesneye ih.var;Program cste yazmıştık neyin içinde var?=conteyner içinde bizim için bekliyor.(ITrainerService dersem sen bana TrainerManager ver demiştikya)Bnuda ctrl+. ile çağır.Dependency enjection yönt ile o conteyner de oluş. trainerManageri aldım _trainerManager içine koymuş oldum.Demek ki artık onu kulanabilirm.
 //Bizim  controller içinde ki Index te ki amaç ne?= bu View e bir TrianerViewModel listesi göndermem lazım ki orada bunu  kullanabileyim.Bir değişken tanımladık.(GetAll 3 parametrenin 3ünede null ver kızgınlığı geçsin;değer vermezsen null)
+//*Hangi id li ürün old bilmem gerek(GetById methodu) parametre ekledim id isminde/view de bir link vericez yani href gibi düşün.
