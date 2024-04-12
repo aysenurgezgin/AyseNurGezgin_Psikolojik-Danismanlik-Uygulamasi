@@ -23,7 +23,9 @@ namespace FriendlyCode.Data.Concrete
 
         public List<Trainer> GetHomePageTrainers()
         {
-            throw new NotImplementedException();
+            var trainers = AppContext
+                .Trainers
+                .Where
         }
 
         //Bu sayede Context imizin içinde yer alan bütün dbsetlerimize erişebiliyoruz onlar sayesinde de tablolarımıza erişebiliyoruz.
@@ -37,4 +39,4 @@ namespace FriendlyCode.Data.Concrete
 //Trainera özgü yazdıklarımın da buaraya gelmesini istiyorum kullanmam için.<Trainer>yanına (,)deyip(birden fazla classtan miras alamıyoruk ama inteface den alabiliyorduk)ITrainerRepository derim.
 //AppDbContext lazım o repository e birşey söylemem gerkiyor.Yine bir ctor yazıcam;bu TrainerRepostory den nesne üretildiğinde (burda da her zaman, her lazım old. new deyip üretilmesini istemiycez)onu da Program cste oluşturucaz.bir kere new yapıldığında buraya AppDbContext tipinde ismi appDbContext olablilir gelen GenericRepository e gitmesi gerekiyor da alıcak nasıl?=base e gönderek.Base artık GenericRepository(Base classı temsil eden kavram ve bir class tek bir classtan miras alabilir,classıda başa yazmak gerekiyrdu.)(*Set ancak DbContext üzerinde çalışabilen birşey)(*AppDbContext DbContext ten miras alarak oluşmuştu,onun bütün özlklerine sahipti.)
 //Benim bu Context ti kullanmam gerekiyor burada.ITrinerRepositorye gitt.
-//*GetHomePagesTrainerın methot imzasını implement interface edrek buraya almış oluyorum.V
+//*GetHomePagesTrainerın methot imzasını implement interface edrek buraya almış oluyorum.(Var)Tipini kendi belirleycek şelikde Trainerları getirmek istiyorm.Veri tanımla iligi bütün varlıkları eişmemi sağlayan yapımın ismi:AppContext(Trainer tablosuna erişim yani)Sql sorgusu yazmamıza gerek kalmadan(Set TEntity )Entity FraemWorkCore'un olş sağlayan Linq sorgularını kullanıyor oluruz.Select*Trainer Tabi Aktif olanlar ve silinmemş (Where)
