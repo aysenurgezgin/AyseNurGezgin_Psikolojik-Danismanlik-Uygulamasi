@@ -3,6 +3,15 @@
 @section Styles{
     <link rel="stylesheet" href="https://cdn.datatables.net/2.0.3/css/dataTables.dataTables.css" />
 }
+
+@section Scripts{
+    <script src="https://cdn.datatables.net/2.0.3/js/dataTables.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#entityTable').DataTable();
+        });
+    </script>
+}
 <div class="container">
    <div class="row">
        <div class="col-md-6">
@@ -14,13 +23,18 @@
    </div>
 
    <table id="entityTable" class="table">
-       <tr>
-           <th>Resim</th>
-           <th>Id</th>
-           <th>Psikolog</th>
-           <th>Fiyat</th>
-           <th>#</th>
-        </tr>
+       <thead>
+            <tr>
+                <th>Resim</th>
+                <th>Id</th>
+                <th>Psikolog</th>
+                <th>Fiyat</th>
+                <th>#</th>
+            </tr>
+       </thead>
+
+       <tbody>
+
         @foreach (var t in Model)
         {
             <tr>
@@ -47,6 +61,8 @@
 
             </tr>
         }
+        </tbody>
+
    </table>
 
 </div>
@@ -73,5 +89,14 @@ blirim(Sadece o sayfa da geçerli olacak) Burda nerde yazd önemi yok ama kolayl
 css e bağlantı verebiirim ki bunu istiyoruz zaten.link için de jquery de var;bir js kütüphanesi o da.
 Jquery tek varlık sebebi var=Daha az kod,daha çok iş :)
 
+ikinci linki eklerken;zaten bizim şablonumuz da var olan sectionumuz var adı=Scripts
 
+Styles içine yazd.Head kısmına yerleşecek(Layout da oraya tanımladık)
+Scripts en alta eklenecek body nin üstüne eklendiği için.Orjinal olması gereken yere kendi ekliyor.
+Section un varlık sebeblerinden başında o geliyor; zaten body görmüyorum body layout dan gelicek.
+
+Son olrakta;Bir js kodu verip ve orada bu html dosyası içinde ki hangi id'li tablonun datatable olrak
+kullanılması gerktiğini söylemeliyim.ve dökümantasyondan alıp zaten olan Scripts kısmının içine script
+etiketi için de ekliyorum.Ve benim table id kısmımı değiştiriyorum.
+Başlık  bölümleri vs onları eklemezsen sorun verir.
    -->
