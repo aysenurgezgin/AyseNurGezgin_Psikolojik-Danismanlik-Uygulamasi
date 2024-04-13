@@ -20,8 +20,5 @@ namespace FriendlyCode.Mvc.Areas.Admin.Controllers
 //2)ViewStart ViewImport dosyalrı onlar mecbur değil ama olursa işimize yaramış oluyor.
 //O yüzden Mvc içinde ki normal Views kalsörü içinde ki Shared klasörünü seçip ctrl tuşuna basarak ViewStart ViewImport onların 3'ünü seçip kopyalayıp benim Views klasörüme yapıştırıyorum.
 
-//!  Diğerinin Admin olarak old söylememiz yeterli.Admin için deki Home controller
-//içinde classımızın üstüne köşeli parantez açı(Mvc de attribute deniyor)Home
-   // controllerı bir attribte özellik nitelik tanımlamış oluyorum.
-   // Tanımlayacağım attribute Area("area name i yazılır")
-
+//Diğerinin Admin olarak old söylememiz yeterli.Admin için deki Home controlleriçinde classımızın üstüne köşeli parantez açı(Mvc de attribute deniyor)Home controllerı bir attribte özellik nitelik tanımlamış oluyorum. Tanımlayacağım attribute Area("area name i yazılır")
+    
