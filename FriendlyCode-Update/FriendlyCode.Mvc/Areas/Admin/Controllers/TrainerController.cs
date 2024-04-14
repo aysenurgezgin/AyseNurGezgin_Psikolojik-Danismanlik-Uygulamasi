@@ -31,6 +31,11 @@ namespace FriendlyCode.Mvc.Areas.Admin.Controllers
             _trainerManager.Create(trainerViewModel);
             return RedirectToAction("Index");
         }
+        [HttpGet]
+        public IActionResult Edit(int id)
+        { 
+            
+        }
     }
 }
 
@@ -43,3 +48,4 @@ namespace FriendlyCode.Mvc.Areas.Admin.Controllers
 
 //Burada yeni bir komut görüyouz;şuana kadar  bir action ın bittikten sonra hep viewle sonlanmasını sağladık.=)bir view çalışsın ki html render etsin isteyen kişi client tarafında  bunu (viewi)yollasın diye ama şimdi keydetme işlemi gerçekleşir gerçekleşmez beni Psikologlar sayfasına yönlendirsin istiyorum.Ve yeni girilen kişi sayfa da gösterilsin de isterim yani beni Trainercontroller de ındex actionum yeniden çalışsın istiyorumki yeniden gitsin veri tabanın dan verileri çeksin ve tekrar ana sayfa viewimi göstersin.Oyüzden artık view demek yerine benim Index actinumu tetiklemem gerek.
 //Return dan sora bunu yapabilmem için özelbir fonksiyon/methot  vemiş=)RedirectToaction(tekarra şu actionu yönlen)akışı şu action a yönlendir.
+//Edit kısmından sonra not tutmaya devam edersin sonra!
