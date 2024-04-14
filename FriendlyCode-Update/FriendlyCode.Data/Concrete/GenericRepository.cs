@@ -35,7 +35,8 @@ namespace FriendlyCode.Data.Concrete
         //Hepsi için kullanılacak old(generic)için özel birşey demedim./result da denebilir.yard _dbContext.Bir tane entity i döndürecek komut(id ile arama yapılıyorsa özel bir komut bu)=Find(ilgili entity deid ye göre arama yapar.)Primary keye göre yani.Normalde bu şekilde kullanamayız;bize trainerı getiri ama categorylerini getirmez ayrı kod yazmak gerek 
         public void HardDelete(TEntity entity)
         {
-            throw new NotImplementedException();
+            _dbContext.Set<TEntity>().Remove(entity);
+            _dbContext.SaveChanges();
         }
 
         public void SoftDelete(TEntity entity)

@@ -43,6 +43,12 @@ namespace FriendlyCode.Mvc.Areas.Admin.Controllers
             _trainerManager.Update(editedTrainer);
             return RedirectToAction("Index");
         }
+        [HttpGet]
+        public IActionResult Delete(int id) 
+        {
+           TrainerViewModel deletedTrainer = _trainerManager.GetById(id);
+           return View(deletedTrainer);
+        }
     }
 }
 

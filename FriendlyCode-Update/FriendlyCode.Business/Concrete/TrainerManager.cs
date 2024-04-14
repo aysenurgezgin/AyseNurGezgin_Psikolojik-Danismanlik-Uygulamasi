@@ -79,7 +79,8 @@ namespace FriendlyCode.Business.Concrete
         //_trainerRepository methot sayesinde trainerlar içinde ilgili id li trainer gldi ama tipi Trainer ben TrainerViewModel döndürmeliyim.(nesneye çevirme işlemi)Artık bunu Mvsc yapımın içinde ki Controller daki action da çağırabilirm.
         public void HardDelete(int id)
         {
-            throw new NotImplementedException();
+            Trainer deletedTrainer = _trainerRepository.GetById(id);
+            _trainerRepository.HardDelete(deletedTrainer);
         }
 
         public void SoftDelete(int id)
