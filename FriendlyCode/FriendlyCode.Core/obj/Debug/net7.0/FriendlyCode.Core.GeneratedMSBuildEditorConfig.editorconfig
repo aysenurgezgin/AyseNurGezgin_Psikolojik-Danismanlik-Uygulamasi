@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FriendlyCode.Core
-build_property.ProjectDir = C:\Github\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\FriendlyCode-Update\FriendlyCode.Core\
+build_property.ProjectDir = C:\Github\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\FriendlyCode\FriendlyCode.Core\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

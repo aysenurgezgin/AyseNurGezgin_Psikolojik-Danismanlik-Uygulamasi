@@ -9,99 +9,99 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FriendlyCode.Mvc
 build_property.RootNamespace = FriendlyCode.Mvc
-build_property.ProjectDir = C:\Github\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\FriendlyCode-Update\FriendlyCode.Mvc\
+build_property.ProjectDir = C:\Github\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\FriendlyCode\FriendlyCode.Mvc\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Github\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\FriendlyCode-Update\FriendlyCode.Mvc
+build_property.MSBuildProjectDirectory = C:\Github\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\FriendlyCode\FriendlyCode.Mvc
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode-Update/FriendlyCode.Mvc/Areas/Admin/Views/Home/Index.cshtml]
+[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode/FriendlyCode.Mvc/Areas/Admin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode-Update/FriendlyCode.Mvc/Areas/Admin/Views/Shared/Error.cshtml]
+[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode/FriendlyCode.Mvc/Areas/Admin/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode-Update/FriendlyCode.Mvc/Areas/Admin/Views/Shared/_DataTablesCssPartial.cshtml]
+[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode/FriendlyCode.Mvc/Areas/Admin/Views/Shared/_DataTablesCssPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9EYXRhVGFibGVzQ3NzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode-Update/FriendlyCode.Mvc/Areas/Admin/Views/Shared/_DataTablesJsPartial.cshtml]
+[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode/FriendlyCode.Mvc/Areas/Admin/Views/Shared/_DataTablesJsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9EYXRhVGFibGVzSnNQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode-Update/FriendlyCode.Mvc/Areas/Admin/Views/Shared/_MenuPartial.cshtml]
+[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode/FriendlyCode.Mvc/Areas/Admin/Views/Shared/_MenuPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9NZW51UGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode-Update/FriendlyCode.Mvc/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode/FriendlyCode.Mvc/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode-Update/FriendlyCode.Mvc/Areas/Admin/Views/Trainer/Create.cshtml]
+[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode/FriendlyCode.Mvc/Areas/Admin/Views/Trainer/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVHJhaW5lclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode-Update/FriendlyCode.Mvc/Areas/Admin/Views/Trainer/Delete.cshtml]
+[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode/FriendlyCode.Mvc/Areas/Admin/Views/Trainer/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVHJhaW5lclxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode-Update/FriendlyCode.Mvc/Areas/Admin/Views/Trainer/Edit.cshtml]
+[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode/FriendlyCode.Mvc/Areas/Admin/Views/Trainer/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVHJhaW5lclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode-Update/FriendlyCode.Mvc/Areas/Admin/Views/Trainer/Index.cshtml]
+[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode/FriendlyCode.Mvc/Areas/Admin/Views/Trainer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVHJhaW5lclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode-Update/FriendlyCode.Mvc/Areas/Admin/Views/_ViewImports.cshtml]
+[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode/FriendlyCode.Mvc/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode-Update/FriendlyCode.Mvc/Areas/Admin/Views/_ViewStart.cshtml]
+[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode/FriendlyCode.Mvc/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode-Update/FriendlyCode.Mvc/Views/Home/GetById.cshtml]
+[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode/FriendlyCode.Mvc/Views/Home/GetById.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxHZXRCeUlkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode-Update/FriendlyCode.Mvc/Views/Home/Index.cshtml]
+[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode/FriendlyCode.Mvc/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode-Update/FriendlyCode.Mvc/Views/Home/Privacy.cshtml]
+[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode/FriendlyCode.Mvc/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode-Update/FriendlyCode.Mvc/Views/Shared/Error.cshtml]
+[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode/FriendlyCode.Mvc/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode-Update/FriendlyCode.Mvc/Views/Shared/_MenuPartial.cshtml]
+[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode/FriendlyCode.Mvc/Views/Shared/_MenuPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NZW51UGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode-Update/FriendlyCode.Mvc/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode/FriendlyCode.Mvc/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode-Update/FriendlyCode.Mvc/Views/_ViewImports.cshtml]
+[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode/FriendlyCode.Mvc/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode-Update/FriendlyCode.Mvc/Views/_ViewStart.cshtml]
+[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode/FriendlyCode.Mvc/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode-Update/FriendlyCode.Mvc/Areas/Admin/Views/Shared/_Layout.cshtml]
+[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode/FriendlyCode.Mvc/Areas/Admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-myui4iyzlv
 
-[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode-Update/FriendlyCode.Mvc/Views/Shared/_Layout.cshtml]
+[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode/FriendlyCode.Mvc/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-i6r047rjd1

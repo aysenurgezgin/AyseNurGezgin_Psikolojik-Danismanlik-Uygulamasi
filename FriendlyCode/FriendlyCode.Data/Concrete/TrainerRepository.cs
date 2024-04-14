@@ -21,6 +21,15 @@ namespace FriendlyCode.Data.Concrete
             }
         }//Seti olmayacak salt okunabilir bir propert olucak ve get inde de özel bir kod yazıcaz.(burda kullanacağımız için public demeye gerek yok){}parantez içine bu AppContext çağırıldığı yerden GnericRepository de ki _dbContexti geri döndür.
 
+        public List<Trainer> GetDeletedTrainers(bool? isDeleted)
+        {
+            var trainers = AppContext
+                .Trainers
+                .Where(t=>t.IsDelete==isDeleted)
+                .ToList();
+            return trainers;
+        }
+
         public List<Trainer> GetHomePageTrainers(bool? isHome)
         {
             //LINQ=Language Interface Query

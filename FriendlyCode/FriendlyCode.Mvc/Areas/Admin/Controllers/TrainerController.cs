@@ -16,7 +16,7 @@ namespace FriendlyCode.Mvc.Areas.Admin.Controllers
 
         public IActionResult Index()
         {
-            var trainers = _trainerManager.GetAll();
+            var trainers = _trainerManager.GetAll(null,null,false);
             return View(trainers);
         }
         [HttpGet]
@@ -48,6 +48,16 @@ namespace FriendlyCode.Mvc.Areas.Admin.Controllers
         {
            TrainerViewModel deletedTrainer = _trainerManager.GetById(id);
            return View(deletedTrainer);
+        }
+        public IActionResult HardDeleted(int id)
+        {
+            _trainerManager.HardDelete(id);
+            return RedirectToAction("Index");
+        }
+        public IActionResult SoftDeleted(int id)
+        {
+            _trainerManager.SoftDelete(id);
+            return RedirectToAction("Index");
         }
     }
 }

@@ -43,7 +43,14 @@ namespace FriendlyCode.Business.Concrete
       //İçine hiçbirşey gelmemişse;
            if (isHome == null)
             {
-              trainers = _trainerRepository.GetAll();
+                if(isDelete==null)
+                {
+                trainers = _trainerRepository.GetAll();
+                }
+             else
+                {
+                trainers=_trainerRepository.GetDeletedTrainers(isDelete);
+                }
             } 
           else 
             {
@@ -72,7 +79,8 @@ namespace FriendlyCode.Business.Concrete
                  Price = trainer.Price,
                  Url = trainer.Url,
                  ImageUrl = trainer.ImageUrl,
-                 Properties = trainer.Properties
+                 Properties = trainer.Properties,
+                 IsHome=trainer.IsHome
             };
             return trainerViewModel;
         }
@@ -85,7 +93,9 @@ namespace FriendlyCode.Business.Concrete
 
         public void SoftDelete(int id)
         {
-            throw new NotImplementedException();
+            Trainer deletedTrainer = _trainerRepository.GetById(id);
+            deletedTrainer.IsDelete = !deletedTrainer.IsDelete;
+            _trainerRepository.SoftDelete(deletedTrainer);
         }
 
         public void Update(TrainerViewModel model)

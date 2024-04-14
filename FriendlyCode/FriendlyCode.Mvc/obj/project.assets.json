@@ -1340,11 +1340,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode-Update\\FriendlyCode.Mvc\\FriendlyCode.Mvc.csproj",
+      "projectUniqueName": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode\\FriendlyCode.Mvc\\FriendlyCode.Mvc.csproj",
       "projectName": "FriendlyCode.Mvc",
-      "projectPath": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode-Update\\FriendlyCode.Mvc\\FriendlyCode.Mvc.csproj",
+      "projectPath": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode\\FriendlyCode.Mvc\\FriendlyCode.Mvc.csproj",
       "packagesPath": "C:\\Users\\AYŞE\\.nuget\\packages\\",
-      "outputPath": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode-Update\\FriendlyCode.Mvc\\obj\\",
+      "outputPath": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode\\FriendlyCode.Mvc\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\AYŞE\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1361,11 +1361,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode-Update\\FriendlyCode.Business\\FriendlyCode.Business.csproj": {
-              "projectPath": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode-Update\\FriendlyCode.Business\\FriendlyCode.Business.csproj"
+            "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode\\FriendlyCode.Business\\FriendlyCode.Business.csproj": {
+              "projectPath": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode\\FriendlyCode.Business\\FriendlyCode.Business.csproj"
             },
-            "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode-Update\\FriendlyCode.Core\\FriendlyCode.Core.csproj": {
-              "projectPath": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode-Update\\FriendlyCode.Core\\FriendlyCode.Core.csproj"
+            "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode\\FriendlyCode.Core\\FriendlyCode.Core.csproj": {
+              "projectPath": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode\\FriendlyCode.Core\\FriendlyCode.Core.csproj"
             }
           }
         }

@@ -41,7 +41,8 @@ namespace FriendlyCode.Data.Concrete
 
         public void SoftDelete(TEntity entity)
         {
-            throw new NotImplementedException();
+            _dbContext.Set<TEntity>().Update(entity);
+            _dbContext.SaveChanges();
         }
 
         public void Update(TEntity entity)

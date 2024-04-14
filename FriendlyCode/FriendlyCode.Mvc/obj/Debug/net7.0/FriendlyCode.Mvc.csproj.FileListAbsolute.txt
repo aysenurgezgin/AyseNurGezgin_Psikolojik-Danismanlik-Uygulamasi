@@ -229,3 +229,4 @@ C:\Github\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\FriendlyCode-Update\Fr
 C:\Github\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\FriendlyCode-Update\FriendlyCode.Mvc\obj\Debug\net7.0\FriendlyCode.Mvc.genruntimeconfig.cache
 C:\Github\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\FriendlyCode-Update\FriendlyCode.Mvc\obj\Debug\net7.0\ref\FriendlyCode.Mvc.dll
 C:\Github\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\FriendlyCode-Update\FriendlyCode.Mvc\obj\Debug\net7.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Github\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\FriendlyCode\FriendlyCode.Mvc\obj\Debug\net7.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css

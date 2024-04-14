@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode-Update\\FriendlyCode.Data\\FriendlyCode.Data.csproj": {}
+    "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode\\FriendlyCode.Data\\FriendlyCode.Data.csproj": {}
   },
   "projects": {
-    "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode-Update\\FriendlyCode.Core\\FriendlyCode.Core.csproj": {
+    "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode\\FriendlyCode.Core\\FriendlyCode.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode-Update\\FriendlyCode.Core\\FriendlyCode.Core.csproj",
+        "projectUniqueName": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode\\FriendlyCode.Core\\FriendlyCode.Core.csproj",
         "projectName": "FriendlyCode.Core",
-        "projectPath": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode-Update\\FriendlyCode.Core\\FriendlyCode.Core.csproj",
+        "projectPath": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode\\FriendlyCode.Core\\FriendlyCode.Core.csproj",
         "packagesPath": "C:\\Users\\AYŞE\\.nuget\\packages\\",
-        "outputPath": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode-Update\\FriendlyCode.Core\\obj\\",
+        "outputPath": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode\\FriendlyCode.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AYŞE\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode-Update\\FriendlyCode.Data\\FriendlyCode.Data.csproj": {
+    "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode\\FriendlyCode.Data\\FriendlyCode.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode-Update\\FriendlyCode.Data\\FriendlyCode.Data.csproj",
+        "projectUniqueName": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode\\FriendlyCode.Data\\FriendlyCode.Data.csproj",
         "projectName": "FriendlyCode.Data",
-        "projectPath": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode-Update\\FriendlyCode.Data\\FriendlyCode.Data.csproj",
+        "projectPath": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode\\FriendlyCode.Data\\FriendlyCode.Data.csproj",
         "packagesPath": "C:\\Users\\AYŞE\\.nuget\\packages\\",
-        "outputPath": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode-Update\\FriendlyCode.Data\\obj\\",
+        "outputPath": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode\\FriendlyCode.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AYŞE\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,11 +83,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode-Update\\FriendlyCode.Core\\FriendlyCode.Core.csproj": {
-                "projectPath": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode-Update\\FriendlyCode.Core\\FriendlyCode.Core.csproj"
+              "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode\\FriendlyCode.Core\\FriendlyCode.Core.csproj": {
+                "projectPath": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode\\FriendlyCode.Core\\FriendlyCode.Core.csproj"
               },
-              "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode-Update\\FriendlyCode.Entity\\FriendlyCode.Entity.csproj": {
-                "projectPath": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode-Update\\FriendlyCode.Entity\\FriendlyCode.Entity.csproj"
+              "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode\\FriendlyCode.Entity\\FriendlyCode.Entity.csproj": {
+                "projectPath": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode\\FriendlyCode.Entity\\FriendlyCode.Entity.csproj"
               }
             }
           }
@@ -133,14 +133,14 @@
         }
       }
     },
-    "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode-Update\\FriendlyCode.Entity\\FriendlyCode.Entity.csproj": {
+    "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode\\FriendlyCode.Entity\\FriendlyCode.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode-Update\\FriendlyCode.Entity\\FriendlyCode.Entity.csproj",
+        "projectUniqueName": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode\\FriendlyCode.Entity\\FriendlyCode.Entity.csproj",
         "projectName": "FriendlyCode.Entity",
-        "projectPath": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode-Update\\FriendlyCode.Entity\\FriendlyCode.Entity.csproj",
+        "projectPath": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode\\FriendlyCode.Entity\\FriendlyCode.Entity.csproj",
         "packagesPath": "C:\\Users\\AYŞE\\.nuget\\packages\\",
-        "outputPath": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode-Update\\FriendlyCode.Entity\\obj\\",
+        "outputPath": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode\\FriendlyCode.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AYŞE\\AppData\\Roaming\\NuGet\\NuGet.Config",
