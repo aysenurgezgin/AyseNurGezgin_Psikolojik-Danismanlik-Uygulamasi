@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FriendlyCode.Business")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9acf5f1208734beb9ce0d578075a7d76958892c3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7921fc636d540b6c572ee25c02f59ac911550fb")]
 [assembly: System.Reflection.AssemblyProductAttribute("FriendlyCode.Business")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FriendlyCode.Business")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

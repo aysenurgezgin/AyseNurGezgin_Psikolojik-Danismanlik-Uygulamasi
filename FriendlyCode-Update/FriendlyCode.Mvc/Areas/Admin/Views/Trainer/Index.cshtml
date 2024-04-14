@@ -1,17 +1,13 @@
 ﻿@model List<TrainerViewModel>
 
 @section Styles{
-    <link rel="stylesheet" href="https://cdn.datatables.net/2.0.3/css/dataTables.dataTables.css" />
+  @await Html.PartialAsync("_DataTablesCssPartial")
 }
 
 @section Scripts{
-    <script src="https://cdn.datatables.net/2.0.3/js/dataTables.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('#entityTable').DataTable();
-        });
-    </script>
+ @await Html.PartialAsync("_DataTablesJsPartial")
 }
+
 <div class="container">
    <div class="row">
        <div class="col-md-6">
@@ -99,4 +95,10 @@ Son olrakta;Bir js kodu verip ve orada bu html dosyası içinde ki hangi id'li t
 kullanılması gerktiğini söylemeliyim.ve dökümantasyondan alıp zaten olan Scripts kısmının içine script
 etiketi için de ekliyorum.Ve benim table id kısmımı değiştiriyorum.
 Başlık  bölümleri vs onları eklemezsen sorun verir.
-   -->
+
+
+Partial mantığı; Biryerlerden arayıp bulmaktansa kısa kod yzamak ve ordan çağırmak.
+Başka bir index sayfam da bir listeleme yapacaksam ve ora da DAtatable kullnaıyorsam tek yapmam gereken
+sectionlarımı bunları çağırmak olucak.
+
+-->
