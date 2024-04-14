@@ -2,29 +2,40 @@
 <div class="container w-50">
     <h1 class="display-6 text-primary">Psikolog Ekle</h1>
     <hr />
-    <form>
+    <form
+        asp-area="Admin"
+        asp-controller="Trainer"
+        asp-action="Create"
+        method="post"
+    >
         <div class="row">
             <div class="col-md-6 mb-3">
                 <label class="form-label">Psikolog Adı</label>
-                <input class="form-control" type="text" />
+                <input asp-for="Name" class="form-control" type="text" />
             </div>
-            <div class="col-md-6 mb-3">
-                <label class="form-label">Seans Ücreti</label>
-                <input class="form-control" type="text" />
+            <div class="col-md-2 mb-3">
+                <label class="form-label">Ücret</label>
+                <input asp-for="Price" class="form-control" type="text" />
+            </div>
+            <div class="col-md-4 mb-3 d-flex align-items-center gap-2">
+                <input asp-for="IsHome" class="form-check-input" type="checkbox" />
+                <label class="form-check-label">Ana Sayfa</label>
             </div>
             <div class="col-md-6 mb-3">
                 <label class="form-label">Url</label>
-                <input class="form-control" type="text" />
+                <input asp-for="Url" class="form-control" type="text" />
             </div>
             <div class="col-md-6 mb-3">
                 <label class="form-label">Resim</label>
-                <input class="form-control" type="text" />
+                <input asp-for="ImageUrl" class="form-control" type="text" />
             </div>
             <div class="col-md-12 mb-3">
                 <label class="form-label">Özellikler</label>
-                <textarea rows="5" class="form-control"></textarea>
+                <textarea asp-for="Properties" rows="5" class="form-control"></textarea>
             </div>
-          
+          <div class="col-md-12">
+              <button class="btn btn-success float-end" type="submit">Kaydet</button>
+          </div>
         </div>
     </form>
 </div>
@@ -49,4 +60,36 @@ view içine birşey olmadığı halde buraya model yazabiliyorum)
 TrisnerViewModel biz bunu tasarladık kullanıcıya trainerları verirken.
 Form içine yazılan bilgileri alıp sunucuya gönderebiliyor olucaz;Form içne vericeğimiz
 bir takım özelliklerle ama önce içeriği.
+
+Butonu da ayarladıktan sonra bütün iş aslın da form da form içinde girilen bilgileri
+sunucuya gönderecek.sunucuya gönderme işlemini tetikleyen şey butonun tipinin submit olması
+Ama sunucu da nereye gitsinler;hangi controllerın hangi actionına gitsin bunu söylemeliyim.
+bunu forma söylemeliyim.(submit olan şey form ld için )form içine girip normal asp işlemleri
+yapıyouz.Ama actin ksımında ;TrainerController de Cretae methodmuz(action) var bu ekrana formu 
+getirmeyi sağlıyordu,bana bir tane daha kaydetmek için methot gerek ve o da;burdan gelen bil-
+giyi alıp kayıt yapacak.aynı ismi kullnaırız %99 bir tane daha methodu kopyala gelen verileri ben 
+TrainerViewModel tipinde karşılayabileceğim.o yüzden acton ismim de create olacak.Fakat TrainerController da
+yapmış old kavramsal olarak=ovverload(C#ın vermiş old imkan;aynı ortamda ismi aynı olan bir kod daha
+yazabiliyoruz maksat aynı isimli methodu farklı şekilde kullanab,lmek/imzayı değiştirdik) ama benim acton da 
+bu şekilde yazma amacım;http protokolüyle ilgili birşey yapıyorum istek bu dolayısyla sen create
+e gidiyorsun dediğim zaman bunlardan hangisine gideceğini bilemez burda bir ayrırt edici birşey yapmam
+gerek:TrainerController de createleri ayrocam=methot tipiyle!Http protokolü nedir??=)
+Ben bir istekte bulunduğum da bir siteden sunucuya giden bu isteği karşılayan orda işler bitikten 
+sonra bu isteğin sonucunu geri döndüren protokoldür.Clienttan sunucuya ne tür istekler yapabilirim?=)
+1)Şu bilgleri getir(Sunucu dan birşey alma var/sunucuya birşey gönderme yok)=)GET
+2)Bu bilgileri al verş tabanına kaydet (sunucuya birşey gönderiyorum.)=)POST
+
+HtttpGET ve HttpPost işte ama yazmazsak Default olarak=)GET tipin de.
+
+Bu yüzden de 2.yazdığım Create methodumu Post yapmalıyım.   [HttpPost] yazınca da artık hangi create methoduna 
+gitmesi gerektiğini bilebilecek.
+
+
+Birde check formu old için ;eğer bir form varsa ve sunucuya birşey gönderiyorsak:formun methot tipi var
+onu da post yapmalıyız.rengi de diğerlerinden farklı bir html attributu yani Mvcye göre yazılmış bişey değil Htmlde
+normalde de olan birşey.
+
+artık paket olarak sunacak ama son bişey;bunu yapması için bişey söylemeliyim.TrainerViewModel
+tipinde ilişkili olmalı girilen bilgiler.TagHelperla hallediyorz.input içine girip asp-for diyoruz.
+modelın varlığı=)işte burada kullanabilmemiz için verdik!şimdi bağlama işini yapmış olduk.
 -->
