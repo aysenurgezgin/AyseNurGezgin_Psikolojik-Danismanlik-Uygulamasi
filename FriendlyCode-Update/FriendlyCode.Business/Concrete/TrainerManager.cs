@@ -89,7 +89,14 @@ namespace FriendlyCode.Business.Concrete
 
         public void Update(TrainerViewModel model)
         {
-            throw new NotImplementedException();
+           Trainer editedtrainer =_trainerRepository.GetById(model.Id);
+            editedtrainer.Name = model.Name;
+            editedtrainer.Price = model.Price;
+            editedtrainer.Url = model.Url;
+            editedtrainer.ImageUrl = model.ImageUrl;
+            editedtrainer.Properties = model.Properties;
+            editedtrainer.IsHome= model.IsHome;
+            _trainerRepository.Update(editedtrainer);
         }
     }
 }

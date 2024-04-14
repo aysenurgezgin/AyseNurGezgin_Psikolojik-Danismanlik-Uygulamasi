@@ -1,0 +1,47 @@
+﻿@model TrainerViewModel
+<div class="container w-50">
+    <h1 class="display-6 text-primary">Psikolog Düzenle</h1>
+    <hr />
+    <form
+        asp-area="Admin"
+        asp-controller="Trainer"
+        asp-action="Edit"
+        method="post"
+    >
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <label class="form-label">Psikolog Adı</label>
+                <input asp-for="Name" class="form-control" type="text" />
+            </div>
+            <div class="col-md-2 mb-3">
+                <label class="form-label">Ücret</label>
+                <input asp-for="Price" class="form-control" type="text" />
+            </div>
+            <div class="col-md-4 mb-3 d-flex align-items-center gap-2">
+                <input asp-for="IsHome" class="form-check-input" type="checkbox" />
+                <label class="form-check-label">Ana Sayfa</label>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label class="form-label">Url</label>
+                <input asp-for="Url" class="form-control" type="text" />
+            </div>
+            <div class="col-md-6 mb-3">
+                <label class="form-label">Resim</label>
+                <input asp-for="ImageUrl" class="form-control" type="text" />
+            </div>
+            <div class="col-md-12 mb-3">
+                <label class="form-label">Özellikler</label>
+                <textarea asp-for="Properties" rows="5" class="form-control"></textarea>
+            </div>
+          <div class="col-md-12">
+              <button class="btn btn-success float-end" type="submit">Güncelle</button>
+          </div>
+        </div>
+    </form>
+</div>
+
+
+
+<!--
+    Edit için kendin tekrar not alarak izle!
+-->

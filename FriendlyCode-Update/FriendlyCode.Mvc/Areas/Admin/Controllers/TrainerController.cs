@@ -34,7 +34,14 @@ namespace FriendlyCode.Mvc.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult Edit(int id)
         { 
-            
+            TrainerViewModel editedTrainer=_trainerManager.GetById(id);
+            return View(editedTrainer);
+        }
+        [HttpPost]
+        public IActionResult Edit(TrainerViewModel editedTrainer) 
+        {
+            _trainerManager.Update(editedTrainer);
+            return RedirectToAction("Index");
         }
     }
 }
