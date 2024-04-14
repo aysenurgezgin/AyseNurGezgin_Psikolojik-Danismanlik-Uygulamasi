@@ -1,0 +1,52 @@
+﻿@model TrainerViewModel
+<div class="container w-50">
+    <h1 class="display-6 text-primary">Psikolog Ekle</h1>
+    <hr />
+    <form>
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <label class="form-label">Psikolog Adı</label>
+                <input class="form-control" type="text" />
+            </div>
+            <div class="col-md-6 mb-3">
+                <label class="form-label">Seans Ücreti</label>
+                <input class="form-control" type="text" />
+            </div>
+            <div class="col-md-6 mb-3">
+                <label class="form-label">Url</label>
+                <input class="form-control" type="text" />
+            </div>
+            <div class="col-md-6 mb-3">
+                <label class="form-label">Resim</label>
+                <input class="form-control" type="text" />
+            </div>
+            <div class="col-md-12 mb-3">
+                <label class="form-label">Özellikler</label>
+                <textarea rows="5" class="form-control"></textarea>
+            </div>
+          
+        </div>
+    </form>
+</div>
+
+
+
+<!--Psilolog ekle dediğim de trainerların indx kısmın da yani; trainerControllerın 
+index Viewinde/actionlara link verriken button değil a yı kullan sonuçta class ved.için
+görüntü aynı olur./ asp area actin vs ekleme=)   asp-area="Admin"
+               asp-controller="Trainer"
+               asp-action="Create" bu .
+Bu link oluştunca;Psikolog ekle diyince Admi area daki trainer controller için de yr
+alan cretae action ı çalışsın derim.
+
+Daha önce yazd tüm viewlwer de modeli kafada buraya olan view e hangi action dan ulaşı-
+lıyorsa ordan gönderilern viewwin tipi (Lİst<) yukarıda yazılan gibi yazılacak dmiştk
+Oysa model sadece bu demek değil;istersek her viewin bir model ı tanımlayabiliyoruz zaten
+yapmış old.=)Buraya gelen veri karşılayacağımız tip 2)Eğer bu viewDe bir form varsa
+ve bu view de ki verilerin syunucuya gönderilmesi gerekirse ki biz buna ihtiyaç duyuyoruz
+şuan da ;gidecekolan verinin tipi de bu tip olacak (trainercontroller da retutn ederken
+view içine birşey olmadığı halde buraya model yazabiliyorum)
+TrisnerViewModel biz bunu tasarladık kullanıcıya trainerları verirken.
+Form içine yazılan bilgileri alıp sunucuya gönderebiliyor olucaz;Form içne vericeğimiz
+bir takım özelliklerle ama önce içeriği.
+-->

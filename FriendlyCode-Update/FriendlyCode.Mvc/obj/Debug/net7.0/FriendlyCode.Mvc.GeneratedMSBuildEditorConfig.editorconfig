@@ -42,6 +42,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode-Update/FriendlyCode.Mvc/Areas/Admin/Views/Trainer/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVHJhaW5lclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Github/AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi/FriendlyCode-Update/FriendlyCode.Mvc/Areas/Admin/Views/Trainer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVHJhaW5lclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

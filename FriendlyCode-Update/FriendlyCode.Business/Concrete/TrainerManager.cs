@@ -21,7 +21,20 @@ namespace FriendlyCode.Business.Concrete
 
         public void Create(TrainerViewModel model)
         {
-            throw new NotImplementedException();
+            var trainer = new Trainer
+            {
+                Name = model.Name,
+                Price = model.Price,
+                Properties = model.Properties,
+                Url = model.Url,
+                ImageUrl = model.ImageUrl,
+                CreatedDate = DateTime.Now,
+                ModifiedDate = DateTime.Now,
+                IsActive = true,
+                IsHome = model.IsHome
+
+            };
+            _trainerRepository.Create(trainer);
         }
 
         public List<TrainerViewModel> GetAll(bool? isHome=null, bool? isActive=null, bool? isDelete = null)
@@ -128,3 +141,6 @@ namespace FriendlyCode.Business.Concrete
 //*Şimdi daha idealini yazıyoruz.Trainerları alıp TrainerViewModel olarak vermek amacımız.ki aldık Trainerları elimizde (List<Trainer>trainers yazdığımız kısım)bana TrainerViewModel tipide bir liste ver adı da trainerViewModel olsun = de ve trainerlar içinde dön Select ile her bir trainer için yeni bir TrainerViewModel oluştur diyecek ve ne dediği için Skopummu açıp({})ViewModel tipindeki değişkenimin değerlerini girmeye başlıyacağım.Sonunda .ToList(); yazıcaz ki kızgın olmasın nende dedik=List<Trainer>trainers içine değer aktarmaya çalıştd için.Trainer içinde kaç tane trainer varsa o kadar new deyip tekrarlayacak.
 
 //*GetById için= Bunu çağırıcaz Mvc projemizdeki Action içinden
+
+
+//Data katmanım da Create ile ilgili yazdım.Yapıcağımız şey Cretae Mvc den çağırılacak Mvc de bir TrainerViewModel tipinde değer göndercek oysa data da ayarladığımız create ise TEntity tipin de yani trainer  ya da category tipin de yani ben bunun burda dönüştürmem gerekiyr.ve bunları içine ek tek alma ilemine başlıyorum.Veri tabanına gönderiyorum önce Id si olmaz bu kaydın Id bizim için;kayıt olurken oluşturulan birşeydi.Yeni kayıt da ıdli ilgili hiçbirşekilde muhattab olmuyoruz.Modelden gelen den NAme yani trainerın name i .Kullanıcı TrainerViewModel bunun içinde formda ne girmiş se o buraya gelicek.Bu işlem tamamsa; gelen TrainerViewModelı Trainerı dönüştürdüm artık ben Trainer ı _trainerRaository imde ki Create methoduma gönderebilirm.Burda Create i çağırdım işini yaptı  ve ne oldu çağırdığım yere döndecektir;Mvc de Area ya gidip Admin Controllersa gidip Trainer Controlllera gidip Crate diye bir methoda ihtiyacım var ve nu orada ekliycem.

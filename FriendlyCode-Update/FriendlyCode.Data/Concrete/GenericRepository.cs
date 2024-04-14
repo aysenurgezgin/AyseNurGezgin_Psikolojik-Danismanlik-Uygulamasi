@@ -17,7 +17,8 @@ namespace FriendlyCode.Data.Concrete
         }
         public void Create(TEntity entity)
         {
-            throw new NotImplementedException();
+            _dbContext.Set<TEntity>().Add(entity);
+            _dbContext.SaveChanges();
         }
 
         public List<TEntity> GetAll()
@@ -57,3 +58,5 @@ namespace FriendlyCode.Data.Concrete
 //nasıl kullanıcam ?Önce GetAll la başladık;Liste tutacacak bir değişken lazım ,TEntity tipinde bir değişken adıda geri döndüreceğimiz birden fazla entityi barındıracağı için entities oldu.=deyip _dbContext i elime aldımhangi entityden bahsettiğimi bilmiyorum ama dışardan gelmiş TEntity işte onu Set(methodnu)ediyoruz.Sonra bir Linq sordusu var ToList.=)GnericRepository de<TEntity> içine mesela Category tipini gönderdim,List<TEntity> Category tipinde birşey döndürecek demektir.Bütün Cateroyleri Listelemiş olacak,en son da geri döndürürüz(entitiesi).
 
 //*GetById methoduma geldim Idleriyle getir ;biz bunu trainer olatrak düşünüyoruz ama bu bir TEntity döbdürüuor olucak yani Generic bir yapıyı kurguladığımız için Generic birşey döner.Entity dönün ce de Business katamanıma giderim;bunu çağırmak için.Her hangi bir trainer Detayına basınca o trainerın bilgilerini çekmek ist için.
+
+//Create başlangıç;İhtiyacımız olan şey yine generic olarak gönderilen şeyin(category olabilir trainer olabilir)bunu bir generic larak kaydetmem gerekiyor._dbContext i elime alıp .diyip Set Tentity diyorum;trainer kullanılıyorsa trainer category kullanılıyorsa category i temsil ediyordu.yei ir kayıt eklemekm için de Add parantez içine de buraya gönderilmiş olan entity yi ekliycek artık neyse.Tabi _dbContext deki  bunalır kaydetmemsi gerek veri tabın da olması için.Asenkron programlama mantığını kullan ki program eklmeden kaydetmesin.Ama şimid biz bunu burda kullanmadık.Interfac den implemente ediyoruz,methodumuzun imzası değişmeli bun değişiyrdsa interface in de değişmesi gerek bunu asnekron yaptıysam çağırdığım yerde de asnkrn yapmalıyım.Create methodumuz artık yeni bir entityi kaydedebiliyor bunu da Businesstan çağıracaktık gidiyoruz..
