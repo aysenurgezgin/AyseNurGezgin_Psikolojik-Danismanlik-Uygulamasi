@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode\\FriendlyCode.Entity\\FriendlyCode.Entity.csproj",
+      "projectUniqueName": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode-Update\\FriendlyCode.Entity\\FriendlyCode.Entity.csproj",
       "projectName": "FriendlyCode.Entity",
-      "projectPath": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode\\FriendlyCode.Entity\\FriendlyCode.Entity.csproj",
+      "projectPath": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode-Update\\FriendlyCode.Entity\\FriendlyCode.Entity.csproj",
       "packagesPath": "C:\\Users\\AYŞE\\.nuget\\packages\\",
-      "outputPath": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode\\FriendlyCode.Entity\\obj\\",
+      "outputPath": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode-Update\\FriendlyCode.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\AYŞE\\AppData\\Roaming\\NuGet\\NuGet.Config",

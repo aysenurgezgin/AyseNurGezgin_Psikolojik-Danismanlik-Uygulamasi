@@ -18,14 +18,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
+                   @await Html.PartialAsync("_MenuPartial")
                 </div>
             </div>
         </nav>
@@ -47,3 +40,36 @@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
+
+
+<!--Bu normal html değil bir cs html;Bunu bir view komutu alarak kullanabilir 
+(return yanına view yazıyorduk ya).Bu yapıyı inceleyelim;
+link verirken;Bizim projemizin içinde www.root klasörünü vermiş demek ki;
+Tıpkı bizim kendi html dosyamız da old. gibi.
+(~) bunu görünce=siteizin www.root klasörü old anlaşılır.
+site css içndne özel kod ekleyebilirz tasarım için.Image ler için iht duyd.
+kodu da oaraya ekleyebilirsşn.(www.root için de css klasörünün için de site.css)
+oraya yazdığımız clssı da uygulamak için de ilgili view dosyamıza(Home klasörü
+içinde ki index.cshtml e)ve orada trainerları gösterdiğimz image orada ki classa 
+a gelip trainer-image yazarım uygulmas için.
+
+Layout dosyası bizim için neden önemli=
+Bütün sayfalarımızn nasıl görüntüleneceği burda biçimlendirilmiş.Her syfa da 
+menu ve aşd footer gözükmeye devam ediyor.
+RenderBody ile;Layout'u ve diğer viewlerle olan ilişkisini ifade edicem.Şuan 
+ki haliyle;Tüm viewlerimizi oluş.Layout.Bu da değiştirilebilir birşey şuan
+ki hali bu.Yani Layout bizim template= şablonumuz.Bütün sayfalar bu formatta 
+olacak dediğimiz yer burası.Değişen şeyler de RenderBody içinde.Butrayı parça-
+lıyacağız.Bunu sağlayan d _ViewStart diye bir dosya var o sağlıyor.SAyfanın 
+düzeninin ne olacağını.Hepsin de geçerli olması için buraya yazmak gerekiyor.
+
+
+//Başka bir Layout dosya sı daha oluşturabilip şu sayfanın da formatı bu şekilde 
+olsun diyebilirim.(Pek tercih edilmez )//et yapıp kod yazmak C#kodu old belrt
+
+Bir template i çok beğenirsek Layou içine bunun kodalrını yazıcaz.
+//Bne bazen sayfaya başla bir içerik daha koymak istiycem;Section yapısı
+Herhangi bir yere scripts eklemek istiyorsan herhangi bir sayfaya o zamn
+bir secton kullanabilirsin.genelde de aşağı yazılır.(Layout da tanımlandığı
+yer nerdesyse oaraya yazamayı tercih et.)
+-->

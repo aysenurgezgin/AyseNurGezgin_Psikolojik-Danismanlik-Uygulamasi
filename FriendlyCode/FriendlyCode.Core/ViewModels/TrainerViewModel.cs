@@ -8,6 +8,7 @@
         public string Url { get; set; }
         public string Price { get; set; }
         public string ImageUrl { get; set; }
+        public bool IsHome { get; set; }
     }
 }
 //Bir Trainer'ın hangi özelliklerini kullanıcıyla paylaşmak istiyorsak buraya o bilgileri yazıcaz.(bizimde işimize yarayanları yazıcaz mesela:id=detay bilglierini çekicem veri tabanından)

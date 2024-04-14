@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\FriendlyCode.Mvc.props" />
-</Project>

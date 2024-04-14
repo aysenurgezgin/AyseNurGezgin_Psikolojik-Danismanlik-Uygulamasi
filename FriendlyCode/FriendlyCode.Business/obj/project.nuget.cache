@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wP10+VdIYYWre+zl9TIGWOfcdVvwysrcbT/HJCBcnRnQ/dVCMV98gXoCijs7cjBFHmQ5l51VK6nLW5HawFtd7g==",
+  "dgSpecHash": "8y2Nvt7CV7fE6BJOJemQFAVERIfK6NRrD6iQ6bcrioU8W523Q6i2n1nJouAxMS49LFHPGRd9KxgJnOTTD/gwWg==",
   "success": true,
-  "projectFilePath": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode\\FriendlyCode.Business\\FriendlyCode.Business.csproj",
+  "projectFilePath": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode-Update\\FriendlyCode.Business\\FriendlyCode.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AYŞE\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.17\\microsoft.data.sqlite.core.7.0.17.nupkg.sha512",
     "C:\\Users\\AYŞE\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.17\\microsoft.entityframeworkcore.7.0.17.nupkg.sha512",

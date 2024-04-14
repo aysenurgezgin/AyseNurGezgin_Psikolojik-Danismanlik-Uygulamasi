@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xC5m0x/tFMF3U5svDF15uexQ1/QpFL0pm8V1b0UASZ9hqGMSoWRWGhf8d4kKXp39cfbZZDnD10KzpB0TberXFA==",
+  "dgSpecHash": "4A4j44wRfS3NKzNKboVUkWA8sSwQP7CN7CLtYit4GqVF36WamKoNhv1+ZGzQsa+47dnLts+PPGS5Rh0BVMb3eQ==",
   "success": true,
-  "projectFilePath": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode\\FriendlyCode.Mvc\\FriendlyCode.Mvc.csproj",
+  "projectFilePath": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode-Update\\FriendlyCode.Mvc\\FriendlyCode.Mvc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AYŞE\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\AYŞE\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.17\\microsoft.data.sqlite.core.7.0.17.nupkg.sha512",

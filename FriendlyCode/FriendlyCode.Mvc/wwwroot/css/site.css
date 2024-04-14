@@ -20,3 +20,9 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.trainer-image{
+    height:350px;
+    width:220px;
+    margin:0 auto;
+}
