@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6SrRSqUK5MEbUf0ev69sTTX3k6WBxpm3he6S9Ategmc=",
+  "Hash": "J3PZySe6rGqd92ikxFF8W+P4LLJSUjOvsnl88wVfRSg=",
   "Source": "FriendlyCode.Mvc",
   "BasePath": "_content/FriendlyCode.Mvc",
   "Mode": "Default",
@@ -1155,6 +1155,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
+    },
+    {
+      "Identity": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode-Update\\FriendlyCode.Mvc\\wwwroot\\lib\\datatables\\tr.json",
+      "SourceId": "FriendlyCode.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode-Update\\FriendlyCode.Mvc\\wwwroot\\",
+      "BasePath": "_content/FriendlyCode.Mvc",
+      "RelativePath": "lib/datatables/tr.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\datatables\\tr.json"
     },
     {
       "Identity": "C:\\Github\\AyseNurGezgin_Psikolojik-Danismanlik-Uygulamasi\\FriendlyCode-Update\\FriendlyCode.Mvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
