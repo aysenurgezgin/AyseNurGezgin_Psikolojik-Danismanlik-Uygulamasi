@@ -1,0 +1,31 @@
+﻿@model List<TrainerViewModel>
+@{
+    ViewData["Title"] = "Contact Page";
+}
+
+
+<div class="container">
+    <div class="row">
+        @foreach (var t in Model)
+        {
+            <div class="col-md-3">
+                <div class="card pt-3">
+                    <img src="~/images/@t.ImageUrl" class="card-img-top trainer-image" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">@t.Name</h5>
+                        <p class="card-text">@t.Properties</p>
+                        <p class="card-text">@t.Price</p>
+                        <a asp-area=""
+                           asp-controller="Home"
+                           asp-action="GetById"
+                           asp-route-id="@t.Id"
+                           class="btn btn-primary">Detay</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+
+
