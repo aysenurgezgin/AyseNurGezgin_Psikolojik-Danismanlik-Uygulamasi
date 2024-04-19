@@ -41,3 +41,8 @@ namespace FriendlyCode.Mvc.Controllers
 //View den veri göndermiş olduk.Route(asp..) yoluyla alma yöntemi.Form yöntemi(birden fazla bilgi gönd işlemi)
 
 //!Bir View'in View methoduna içine bir model bilgisi yazarsak;Bunun çağırdığı View'in model'lı bu olmalı ;Vİew eklemek için:İsteilen fonk.  , methodun için de Add View komutunu vereiyoruz.Action ismi neyse aynı ismi veriyoruz./Mecbur değiliz ama büyük çoğunlıkla bunu yapıyoruz;Eğer aynı isimi vermezsek return View kısmına trainer'ı gönder ve şu viewe'i de gönder demek zorun da oluruz.İsim vermezsek eğer GetById'li View'i arıyor.
+
+//(P//*Debub işleminde return View kısmına koyup çalıştırdığımda tıkladığım detay kısmı burada hangi id li trainer old.burda da ayn olursa;artık  be id'yi burada kullanabilirim.Business katmanında ki GetById'yi çağır giderken de bu id'yi götür  oraya çünkü o idye göre çalışacak diyebilirim.O da data ya göndercek data katmanın daki methodumumuz da eri tababın dan o id'li Trainer'ı çekip bize döndürebilmiş olacak.
+//View den veri göndermiş olduk.Route(asp..) yoluyla alma yöntemi.Form yöntemi(birden fazla bilgi gönd işlemi)
+
+//!Bir View'in View methoduna içine bir model bilgisi yazarsak;Bunun çağırdığı View'in model'lı bu olmalı ;Vİew eklemek için:İsteilen fonk.  , methodun için de Add View komutunu vereiyoruz.Action ismi neyse aynı ismi veriyoruz./Mecbur değiliz ama büyük çoğunlıkla bunu yapıyoruz;Eğer aynı isimi vermezsek return View kısmına trainer'ı gönder ve şu viewe'i de gönder demek zorun da oluruz.İsim vermezsek eğer GetById'li View'i arıyor.
